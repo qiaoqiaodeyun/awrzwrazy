@@ -17,7 +17,7 @@ showBannerButton.onclick = function(){
 	changePicture();
 	//播放音乐
 	var audio = new Audio();
-	audio.setAttribute("src","music/WhereIstheLove.mp3");
+	audio.setAttribute("src","http://sc1.111ttt.com/2015/1/12/02/105020012014.mp3");
 	audio.play();
 }
 
