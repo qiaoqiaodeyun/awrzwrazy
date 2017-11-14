@@ -83,9 +83,10 @@
 	cursor: pointer;
 	background-color: #000;
 	opacity: 0.5;
-	border: 1px solid  #CD84B1;
 	width: 120px;
 	margin-top: 15px;
+	position: relative;
+	bottom: 0;
 }
 
 .textAndButton button:hover{
