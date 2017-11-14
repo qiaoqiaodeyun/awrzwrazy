@@ -80,8 +80,8 @@ function showPicture(index){
 		dots[i].className = "";
 	}
 	//显示图片和圆点
-	dots[index].className = "activity";
-	pictures[index].style.display = "block";
+	(dots[index]||dots[0]).className = "activity";
+	(pictures[index]||pictures[0]).style.display = "block";
 	//此时赋值正在播放的图片索引
 	indexOfPictures = index;
 }
